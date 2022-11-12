@@ -11,7 +11,7 @@ class ProductsS1 extends Component{
                     <Col xs={12} md={8} className="minh-25vh d-none d-md-block"></Col>
                     <Col xs={12} md={4} className="minh-50vh d-flex align-items-center">
                         <div className="w-100 text-center text-md-start pt-5">
-                            <h2 className="dispaly-6 fw-bold text-dark">
+                            <h2 className="dispaly-6 fw-bold text-shadow">
                                 Dolor sit amet         
                             </h2>
                             <p className="text-muted">
