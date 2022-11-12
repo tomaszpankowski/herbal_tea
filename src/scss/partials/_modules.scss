@@ -1,11 +1,13 @@
 @include aoa-bg-series($bg__init,$classes_init);
 
+
 .about,.products{
     &-s3{
         background-color: #999!important;
         background-blend-mode: multiply!important;
     }
 }
+
 
 .index{
     &-s1{
@@ -14,11 +16,23 @@
 }
 
 .text{
+    &-green{
+        color: rgb(124, 187, 29) !important;
+    }
     &-shadow{
         text-shadow: $text__shadow;
     }
 }
-
+footer{
+    &.bg-dark{
+        background-color: rgb(123, 180, 36)!important;
+    }
+}
+h1,h2,h3,h4,h5,h6,.nav-link{
+    color: greenyellow !important;
+    font-family:"KaushanScript";
+    letter-spacing: 2px;
+}
 nav{
     z-index: 10;
 }

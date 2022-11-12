@@ -15,7 +15,7 @@ class AboutS2 extends Component{
                         <h5 className="text-secondary">
                             Sed ut perspiciatis
                         </h5>
-                        <h2 className="dispaly-6 fw-bold text-dark">
+                        <h2 className="dispaly-6 fw-bold text-shadow">
                             Unde omnis iste
                         </h2>
                         <p className="text-muted">

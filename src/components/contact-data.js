@@ -18,14 +18,11 @@ class ContactData extends Component{
         return(        
             <Container fluid className={"contact-s1 align-items-center p-0 d-flex minh-50vh "+this.props.classExt}>
                 <Row className="mx-auto text-center w-100 pt-5">
-                    <Col xs={10} sm={6} className="mx-auto text-dark p-0">
-                        <img alt="about"
-                            className="img-fluid w-75"
-                            src="img/contact/contact-data.png"/>
+                    <Col xs={10} sm={7} className="mx-auto text-dark p-0">
                     </Col>
-                    <Col xs={10} sm={6} className="mx-auto text-secondary p-0 d-flex align-items-center">
+                    <Col xs={10} sm={5} className="mx-auto text-secondary p-0 d-flex align-items-center">
                         <div className="p-5">
-                            <h1 className="display-4 fw-bold font-logo text-dark-gray">
+                            <h1 className="display-4 fw-bold font-logo text-shadow">
                                 Contact us
                             </h1>
                             <p className="initialism">
